@@ -26,7 +26,11 @@ import {
     cocos,
     celeri,
     delta,
-    tsa
+    tsa,
+    todovue,
+    memorygame,
+    monsape,
+    citas
 } from "../assets"
 
 export const navLinks = [
@@ -183,28 +187,28 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "To Do mobile Vue.js",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "vue",
                 color: "blue-text-gradient"
             },
             {
-                name: "mongodb",
+                name: "css",
                 color: "green-text-gradient"
             },
             {
-                name: "tailwind",
+                name: "typescript",
                 color: "pink-text-gradient"
             }
         ],
-        image: carrent,
-        source_code_link: "https://github.com/"
+        image: todovue,
+        source_code_link: "https://github.com/byeaimebye/to-do-vue.js"
     },
     {
-        name: "Job IT",
+        name: "Cites Maker",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -213,28 +217,32 @@ const projects = [
                 color: "blue-text-gradient"
             },
             {
-                name: "restapi",
+                name: "css",
                 color: "green-text-gradient"
             },
             {
-                name: "scss",
+                name: "html",
                 color: "pink-text-gradient"
             }
         ],
-        image: jobit,
-        source_code_link: "https://github.com/"
+        image: citas,
+        source_code_link: "https://github.com/byeaimebye/CitasReact"
     },
     {
-        name: "Trip Guide",
+        name: "Monsape Wines",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This project was the final project of a bootcamp and is an e-commerce website for purchasing wines with a subscription feature on the site.",
         tags: [
             {
-                name: "nextjs",
+                name: "node",
+                color: "pink-text-gradient"
+            },
+            {
+                name: "javascript",
                 color: "blue-text-gradient"
             },
             {
-                name: "supabase",
+                name: "ejs",
                 color: "green-text-gradient"
             },
             {
@@ -242,8 +250,29 @@ const projects = [
                 color: "pink-text-gradient"
             }
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/"
+        image: monsape,
+        source_code_link: "https://github.com/byeaimebye/Grupo_6_Monsape"
+    },
+    {
+        name: "Memory Game",
+        description:
+            "This memory game is a JavaScript practice project that includes asynchronous functionality using setTimeout and array modifications.",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient"
+            },
+            {
+                name: "html",
+                color: "green-text-gradient"
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient"
+            }
+        ],
+        image: memorygame,
+        source_code_link: "https://github.com/byeaimebye/memoryGame"
     }
 ]
 

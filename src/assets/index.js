@@ -33,6 +33,10 @@ import tsa from "./company/tsa.png"
 import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
+import todovue from "./todovue.png"
+import memorygame from "./memorygame.png"
+import monsape from "./monsape.png"
+import citas from "./citas.png"
 
 export {
     logo,
@@ -67,4 +71,8 @@ export {
     celeri,
     delta,
     tsa,
+    todovue,
+    memorygame,
+    monsape,
+    citas
 }
