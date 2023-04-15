@@ -105,54 +105,51 @@ const technologies = [
 const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Cocos Capital",
+        company_name: "Cocos Capital - Celeri SRL",
         icon: cocos,
         iconBg: "#E6DEDD",
         date: "Nov 2021 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Participated in the development of an Argentinean home broker using React, including key features such as real-time stock quotes and portfolio management.",
+            "Designed user interface (UI) utilizing a pre-existing UI kit, following best practices for UX.",
+            "Implemented real-time connectivity with Socket.io for live updates of stock quotes and notifications.",
+            "Managed global application state with Redux for scalability and maintainability."
         ]
     },
     {
         title: "React.js Developer",
-        company_name: "Delta Asset Management",
+        company_name: "Delta Asset Management - Celeri SRL",
         icon: delta,
         iconBg: "#E6DEDD",
         date: "Aug 2022 - Nov 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Contributed to web application development using Material-UI UI kit and Redux Toolkit for state management.",
+            "Implemented investment fund subscription and redemption functionality, including connections and integrations.",
+            "Conducted thorough testing for functionality, performance, and security."
         ]
     },
     {
         title: "React.js Developer",
-        company_name: "TSA Bursátil",
+        company_name: "TSA Bursátil - Celeri SRL",
         icon: tsa,
         iconBg: " #E6DEDD",
         date: "Nov 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Contributed to web application development using Material-UI UI kit and Redux Toolkit for state management.",
+            "Implemented investment fund subscription and redemption functionality, including connections and integrations.",
+            "Conducted thorough testing for functionality, performance, and security."
         ]
     },
     {
         title: "Front End Developer",
-        company_name: "Celeri SRL",
+        company_name: "celeri - Celeri SRL",
         icon: celeri,
         iconBg: "#383E56 ",
         date: "Jan 2023 - Apr 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers."
+            "Contributed to the development of an ongoing compliance CRM project.",
+            "Utilized Next.js, Material-UI, and Styled Components for building the user interface.",
+            "Implemented SWR (Stale-While-Revalidate) for data fetching and management."
         ]
     }
 ]
