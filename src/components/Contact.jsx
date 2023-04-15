@@ -43,7 +43,7 @@ const Contact = () => {
                     </div>
                     <div className="mt-10 flex flex-col items-center justify-around">
                         <span className="text-white font-medium mb-4">
-                            My Linkedin profile:
+                            My LinkedIn profile:
                         </span>
                         <a
                             href="https://www.linkedin.com/in/aime-pelozo/"
